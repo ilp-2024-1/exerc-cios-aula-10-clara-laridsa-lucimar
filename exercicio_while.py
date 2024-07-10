@@ -10,6 +10,20 @@ print("Fim da questão 01")
 ############################################################################## 
 
 #Questão 2 - Clara
-print(" este programa ")
+print(" este programa realiza a soma dos valores númericos inseridos pelo usuário. digite 0 para encerrar o programa e visualizar a soma")
+soma=0
+while True:
+    a = float(input("digite um número ou 0 para sair:"))
+    if a == 0 :  
+        break  
+    soma = soma + a
+print("o resultado da soma é:", soma)
+print("fim do programa")
+
+
+
+
+
+
 
 
