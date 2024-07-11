@@ -1,8 +1,29 @@
 # Questão 01 - Laridsa...
-variavel = int (input("Digite um número de 1 a 100: "))
-# numero  1 >= 100 
-while (variavel >= 1 and variavel <=100):
-    print("O número digital está dentro do intervalo entre 1 e 100.")
-    variavel = int (input("Digite um número de 1 a 100: "))
 
-print("Fim da questão 01")   
+
+
+
+
+
+
+
+
+#questão 03-lucimar
+senha_armazenada = "10"
+senha_digitada = 1
+
+while senha_digitada != senha_armazenada:
+  # Continua pedindo a senha até que o usuário digite a senha correta
+  senha_digitada = input("Digite sua senha: ")
+
+  if senha_digitada != senha_armazenada:
+    print("Senha incorreta. Tente novamente.")
+
+
+print("Senha correta.")
+
+
+ 
+
+ 
+
