@@ -31,9 +31,16 @@ while i <= n:
     i += 1
 print ( "a fatorial do número escolhido é:",fat)
 
-  
-
-
+###############################################################################
+# Questão 08
+p = int( input("digite um número inteiro com 2 ou mais dígitos"))
+soma=0
+while p != 0:
+    r = p % 10
+    p = p // 10
+    soma = soma + r
+print( " a soma dos dígitos do número é ", soma)
+print ("fim do programa!")
 
 
 
