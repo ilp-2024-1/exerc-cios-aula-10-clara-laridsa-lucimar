@@ -21,6 +21,18 @@ print("o resultado da soma é:", soma)
 print("fim do programa")
 
 
+##############################################################################
+# Questão 05
+n = int(input(" digite um valor inteiro positivo"))
+i =1
+fat=1
+while i <= n:
+    fat *= i
+    i += 1
+print ( "a fatorial do número escolhido é:",fat)
+
+  
+
 
 
 
